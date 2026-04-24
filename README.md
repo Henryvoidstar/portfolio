@@ -12,3 +12,15 @@ I am a student programmer focused on building practical, creative, and technical
 
 Email me at henryghart03@gmail.com
 </details>
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Select Environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+          - testing
