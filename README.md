@@ -11,4 +11,4 @@ I am a student programmer focused on building practical, creative, and technical
   <summary>my email</summary>
 
 Email me at henryghart03@gmail.com
-<details>
+</details>
